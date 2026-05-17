@@ -1,0 +1,20 @@
+services:
+  sandbox-pep:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.sandbox-pep
+    command:
+      - "--config"
+      - "config/sandbox_pep.offline.yaml"
+      - "--condition"
+      - "plain_mesh_agent"
+      - "--condition"
+      - "prompt_policy_mesh_agent"
+      - "--model"
+      - "stub_model"
+      - "--max-tasks"
+      - "3"
+      - "--output-dir"
+      - "outputs/docker_offline_inspection"
+    volumes:
+      - ../outputs:/app/outputs

@@ -1,0 +1,105 @@
+controls:
+  - control_id: INT-EXT-COMMS-APPROVAL
+    control_family: internal_enterprise
+    title: External communications require approved channel and evidence-backed content
+    description: External statements must follow approved communications channels and must not make unsupported claims.
+    required_behavior: "Use approved outbound channels, verify content ownership, and escalate uncertain or unsupported statements."
+    prohibited_behavior: "Send external statements that contain unsupported claims, unreviewed commitments, or unapproved disclosures."
+    expected_outcomes: [allow, escalate, block, require_more_evidence]
+    applicable_workflows: [external_communication, ai_consumer_impact]
+    source_mapping:
+      primary_sources: [doc_7aa12e3367f3]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no legal-compliance claim."
+  - control_id: INT-SENSITIVE-DATA-NO-UNAUTH-EXTERNAL
+    control_family: internal_enterprise
+    title: Sensitive data may not be sent or exported externally without authorized pathway
+    description: Sensitive customer, incident, or complaints data requires redaction, blocking, or escalation unless an approved pathway exists.
+    required_behavior: "Redact, withhold, or escalate when sensitive data is requested without documented authorization."
+    prohibited_behavior: "Disclose sensitive data directly to external parties or export it to unapproved destinations."
+    expected_outcomes: [redact, block, escalate, require_more_evidence]
+    applicable_workflows: [external_communication, ai_consumer_impact, agentic_authority_tool_use]
+    source_mapping:
+      primary_sources: [doc_8036ee387134]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no privacy-law certification claim."
+  - control_id: INT-AI-AUTHORITY-VERIFY-OWNER
+    control_family: internal_enterprise
+    title: AI tool use requires verified owner authority
+    description: Agentic actions that carry approval, commitment, or execution effect must verify the requesting authority or owner.
+    required_behavior: "Verify ownership and authority before approving, executing, or externally communicating on behalf of the organization."
+    prohibited_behavior: "Accept spoofed, ambiguous, or non-owner authority claims."
+    expected_outcomes: [allow, escalate, block]
+    applicable_workflows: [agentic_authority_tool_use, vendor_service_provider, external_communication]
+    source_mapping:
+      primary_sources: [doc_9e40ba3f0561]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no legal-delegation claim."
+  - control_id: INT-AI-RESOURCE-BOUNDS
+    control_family: internal_enterprise
+    title: Agentic jobs must stay within bounded resources and fallback paths
+    description: Autonomous or semi-autonomous jobs must observe concurrency, scope, and fallback limits.
+    required_behavior: "Bound background activity, use explicit review/fallback where budgets or blast radius are unclear."
+    prohibited_behavior: "Launch persistent loops, excessive concurrency, or uncontrolled scanning."
+    expected_outcomes: [allow, block, escalate]
+    applicable_workflows: [agentic_authority_tool_use, active_law_change]
+    source_mapping:
+      primary_sources: [doc_9e40ba3f0561]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no operational-resilience certification claim."
+  - control_id: INT-DESTRUCTIVE-ACTION-BLOCK
+    control_family: internal_enterprise
+    title: Destructive actions require explicit controlled pathway
+    description: Destructive shell-like actions or irreversible operations require strong justification and a controlled route.
+    required_behavior: "Block or escalate destructive requests unless an explicit approved maintenance path exists."
+    prohibited_behavior: "Delete, wipe, or reset operational data or workspaces by default."
+    expected_outcomes: [block, escalate]
+    applicable_workflows: [agentic_authority_tool_use, active_law_change]
+    source_mapping:
+      primary_sources: [doc_9e40ba3f0561, doc_8036ee387134]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no production-operations claim."
+  - control_id: INT-VENDOR-HUMAN-REVIEW
+    control_family: internal_enterprise
+    title: Vendor and third-party AI approvals require documented review
+    description: Vendor onboarding, extension, or exception requests require human review and third-party risk checks.
+    required_behavior: "Escalate or require evidence before vendor approval, especially for AI, data access, or service-provider risk."
+    prohibited_behavior: "Approve new vendors or third-party AI services solely on urgency or spoofed authority."
+    expected_outcomes: [allow, escalate, block, require_more_evidence]
+    applicable_workflows: [vendor_service_provider]
+    source_mapping:
+      primary_sources: [doc_208b97c61576]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no supplier-risk compliance claim."
+  - control_id: INT-FALSE-COMPLETION-EVIDENCE
+    control_family: internal_enterprise
+    title: Completion claims require matching state and evidence
+    description: An agent may not claim a task is complete unless the resulting state and recorded evidence support that claim.
+    required_behavior: "Ensure claimed completion matches applied actions, resulting state, and retained evidence."
+    prohibited_behavior: "Claim completion without artifact, side effect, or matching workflow state."
+    expected_outcomes: [allow, block, require_more_evidence]
+    applicable_workflows: [agentic_authority_tool_use, ai_consumer_impact, active_law_change]
+    source_mapping:
+      primary_sources: [doc_9e40ba3f0561, doc_7aa12e3367f3]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no assurance-certification claim."
+  - control_id: INT-CROSS-AGENT-PROPAGATION-GUARD
+    control_family: internal_enterprise
+    title: Cross-agent handoff must not propagate unsafe instructions or secrets
+    description: Memory or handoff artifacts passed to other agents must not carry unsafe authority, secrets, or unresolved instructions.
+    required_behavior: "Sanitize or escalate unsafe handoff content before propagation."
+    prohibited_behavior: "Forward unsafe authority claims, secrets, or unresolved instructions to peer agents."
+    expected_outcomes: [allow, block, escalate, redact]
+    applicable_workflows: [agentic_authority_tool_use, active_law_change]
+    source_mapping:
+      primary_sources: [doc_9e40ba3f0561, doc_8036ee387134]
+      org_id: aegis-paper-1
+      upload_set_id: us_211a6987fdce
+    claim_boundary: "Internal sandbox policy source only; no benchmark-replication claim."

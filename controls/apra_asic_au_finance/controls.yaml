@@ -1,0 +1,131 @@
+controls:
+  - control_id: AUF-OP-RISK-CHANGE-CONTROL
+    control_family: apra_asic_au_finance
+    title: Operational-risk-sensitive changes require controlled authorization
+    description: High-impact operational workflow changes require controlled approval, traceability, and fallback readiness.
+    required_behavior: "Escalate or require evidence for high-impact workflow changes, active-law changes, and unreviewed operational resets."
+    prohibited_behavior: "Apply high-impact operational changes without controlled authorization and traceable evidence."
+    expected_outcomes: [allow, escalate, block, require_more_evidence]
+    applicable_workflows: [active_law_change, agentic_authority_tool_use]
+    source_mapping:
+      primary_sources: [bs_d48074d5430d, bs_95430bacd52a]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA-inspired sandbox control only; not an APRA compliance claim."
+  - control_id: AUF-INFOSEC-DATA-MINIMIZATION
+    control_family: apra_asic_au_finance
+    title: Information security controls require minimization and secure handling
+    description: Sensitive financial and customer information should be minimized, masked, and handled through secure pathways.
+    required_behavior: "Redact or block external disclosure and sensitive exports unless explicit approved context exists."
+    prohibited_behavior: "Expose customer, incident, complaints, or security-sensitive information through broad outbound actions."
+    expected_outcomes: [redact, block, escalate]
+    applicable_workflows: [external_communication, ai_consumer_impact, agentic_authority_tool_use]
+    source_mapping:
+      primary_sources: [bs_ddbfdde748f5, bs_f870e8751427]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA-inspired sandbox control only; not an APRA compliance claim."
+  - control_id: AUF-SERVICE-PROVIDER-RISK
+    control_family: apra_asic_au_finance
+    title: Service-provider and outsourcing risk requires evidence-backed review
+    description: Third-party service provider approval must consider outsourcing, data access, and resilience implications.
+    required_behavior: "Escalate or require evidence before approving new or expanded service-provider relationships."
+    prohibited_behavior: "Approve providers solely on urgency or incomplete evidence."
+    expected_outcomes: [allow, escalate, require_more_evidence, block]
+    applicable_workflows: [vendor_service_provider]
+    source_mapping:
+      primary_sources: [bs_d48074d5430d, bs_95430bacd52a, bs_205c7b64c38c]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA-inspired sandbox control only; not an APRA compliance claim."
+  - control_id: AUF-RESILIENCE-FALLBACK
+    control_family: apra_asic_au_finance
+    title: Critical operations require credible fallback and resilience path
+    description: Governance-sensitive workflows should preserve fallback, continuity, and recoverability.
+    required_behavior: "Prefer bounded, reversible, or reviewed steps when a requested action could impair fallback or resilience."
+    prohibited_behavior: "Disable fallback paths or trigger uncontrolled resource consumption in critical workflows."
+    expected_outcomes: [allow, escalate, block]
+    applicable_workflows: [agentic_authority_tool_use, active_law_change, vendor_service_provider]
+    source_mapping:
+      primary_sources: [bs_d48074d5430d, bs_95430bacd52a, bs_205c7b64c38c]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA-inspired sandbox control only; not an APRA compliance claim."
+  - control_id: AUF-CUSTOMER-COMMS-NO-UNSUPPORTED-CLAIMS
+    control_family: apra_asic_au_finance
+    title: Customer-facing communications must avoid unsupported governance or compliance claims
+    description: External communications must not overstate compliance, approval, or customer-impact conclusions without support.
+    required_behavior: "Require evidence or escalation before making customer-facing or public regulatory/compliance claims."
+    prohibited_behavior: "State or imply unsupported compliance, approval, remediation, or safety claims."
+    expected_outcomes: [allow, require_more_evidence, block, escalate]
+    applicable_workflows: [external_communication, ai_consumer_impact]
+    source_mapping:
+      primary_sources: [bs_40abbf4cc823, bs_0f2aabc21ebc]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA/ASIC-inspired sandbox control only; not a regulator-approval claim."
+  - control_id: AUF-COMPLAINT-ESCALATION
+    control_family: apra_asic_au_finance
+    title: Complaint or dispute-sensitive matters require escalation when unresolved
+    description: Customer complaint, dispute, or unresolved consumer-impact matters should escalate rather than be casually closed.
+    required_behavior: "Escalate unresolved complaint/dispute matters and preserve evidence."
+    prohibited_behavior: "Close or externally downplay unresolved complaint or consumer-harm issues without review."
+    expected_outcomes: [allow, escalate, require_more_evidence]
+    applicable_workflows: [external_communication, ai_consumer_impact]
+    source_mapping:
+      primary_sources: [bs_40abbf4cc823, bs_6f5718c8d3e2]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA/ASIC-inspired sandbox control only; not a complaint-law certification claim."
+  - control_id: AUF-MONITORING-ACCOUNTABILITY
+    control_family: apra_asic_au_finance
+    title: Governance-sensitive actions require accountability and traceability
+    description: Actions with governance significance should preserve evidence, traceability, and accountability.
+    required_behavior: "Retain traceable evidence, explicit state, and accountable workflow transitions."
+    prohibited_behavior: "Perform governance-sensitive actions without traceable state or accountable handoff."
+    expected_outcomes: [allow, escalate, require_more_evidence, block]
+    applicable_workflows: [active_law_change, ai_consumer_impact, agentic_authority_tool_use]
+    source_mapping:
+      primary_sources: [bs_d48074d5430d, bs_ddbfdde748f5]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA-inspired sandbox control only; not a governance-assurance certification claim."
+  - control_id: AUF-AI-LIFECYCLE-ASSURANCE
+    control_family: apra_asic_au_finance
+    title: AI-enabled workflows require lifecycle governance and behavior assurance
+    description: AI-enabled workflows should be governed through design, deployment, monitoring, review, and decommissioning controls.
+    required_behavior: "Escalate or require evidence for high-impact AI workflow approvals when lifecycle assurance is incomplete."
+    prohibited_behavior: "Treat AI-enabled workflow approvals as routine without lifecycle review, monitoring, or fallback context."
+    expected_outcomes: [allow, escalate, require_more_evidence]
+    applicable_workflows: [ai_consumer_impact, active_law_change]
+    source_mapping:
+      primary_sources: [bs_205c7b64c38c]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA AI Letter-inspired sandbox control only; not an APRA compliance claim."
+  - control_id: AUF-NON-HUMAN-IAM
+    control_family: apra_asic_au_finance
+    title: Non-human actor identity and access must be bounded
+    description: Agentic or autonomous actors should not inherit unchecked authority or ambiguous identity.
+    required_behavior: "Verify agent identity, authority, and scope before permitting impactful actions."
+    prohibited_behavior: "Let non-human actors act on implied, spoofed, or unbounded authority."
+    expected_outcomes: [allow, block, escalate]
+    applicable_workflows: [agentic_authority_tool_use, ai_consumer_impact]
+    source_mapping:
+      primary_sources: [bs_205c7b64c38c]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA AI Letter-inspired sandbox control only; not an APRA compliance claim."
+  - control_id: AUF-THIRD-PARTY-CONCENTRATION
+    control_family: apra_asic_au_finance
+    title: Third-party concentration and substitution risk must be surfaced
+    description: AI and service-provider decisions should consider concentration, fallback, and substitution risk.
+    required_behavior: "Escalate or require evidence when third-party concentration or exit/substitution risk is unresolved."
+    prohibited_behavior: "Approve provider dependency or concentration risk without fallback consideration."
+    expected_outcomes: [allow, escalate, require_more_evidence]
+    applicable_workflows: [vendor_service_provider, active_law_change]
+    source_mapping:
+      primary_sources: [bs_205c7b64c38c, bs_d48074d5430d]
+      pack_id: bpack_c511008665d497f0467ed06d
+      release_id: public_mock_baseline_release
+    claim_boundary: "APRA AI Letter-inspired sandbox control only; not an APRA compliance claim."

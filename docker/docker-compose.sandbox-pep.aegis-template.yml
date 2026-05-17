@@ -1,0 +1,20 @@
+services:
+  sandbox-pep:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.sandbox-pep
+    command:
+      - "--config"
+      - "/run/aegis-private/sandbox_pep.aegis-access.yaml"
+      - "--condition"
+      - "aegis_governed_mesh_agent"
+      - "--model"
+      - "stub_model"
+      - "--max-tasks"
+      - "3"
+      - "--output-dir"
+      - "outputs/controlled_aegis_pdp_validation"
+    volumes:
+      - ../outputs:/app/outputs
+      - ${AEGIS_PRIVATE_CONFIG:?set AEGIS_PRIVATE_CONFIG to your SPQR-issued private YAML config}:/run/aegis-private/sandbox_pep.aegis-access.yaml:ro
+      - ${AEGIS_PRIVATE_TRUST_DIR:?set AEGIS_PRIVATE_TRUST_DIR to your local private trust-material directory}:/run/aegis-private/trust:ro

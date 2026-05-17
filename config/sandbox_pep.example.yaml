@@ -1,0 +1,21 @@
+tenant_id: public-sandbox
+org_id: public-sandbox-org
+model_label: stub_model
+active_law_label: public_offline_inspection_no_aegis_decisions
+pdp_mode: aegis_pdp
+decision_path: /v1/mesh/decision
+output_dir: outputs
+mock_only_side_effects: true
+route_label: offline-inspection-no-aegis-pdp
+trust_config_label: not-configured
+mesh_connection_id: <provided-by-spqr>
+mesh_binding_id: <provided-by-spqr>
+canonical_agent_id: public_sandbox_stub_agent
+canonical_agent_ids_by_model:
+  stub_model: public_sandbox_stub_agent
+  gemma_local: public_sandbox_gemma_agent
+  frontier_model_a: public_sandbox_frontier_agent
+org_name: Public Aegis Paper Sandbox
+policy_bundle_id: public_policy_bundle_placeholder
+baseline_release_id: public_baseline_placeholder
+baseline_fingerprint: public_baseline_fingerprint_placeholder
