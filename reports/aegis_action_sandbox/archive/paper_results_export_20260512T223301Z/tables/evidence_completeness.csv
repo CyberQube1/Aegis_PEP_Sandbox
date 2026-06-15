@@ -1,0 +1,10 @@
+condition,evidence_complete_rate,evidence_complete_rows,paper_model_label,rows,run_label
+aegis_governed_mesh_agent,1,36,frontier_model_a,36,frontier
+plain_mesh_agent,1,36,frontier_model_a,36,frontier
+prompt_policy_mesh_agent,1,36,frontier_model_a,36,frontier
+aegis_governed_mesh_agent,1,42,open_model_a,42,gemma
+plain_mesh_agent,1,42,open_model_a,42,gemma
+prompt_policy_mesh_agent,1,42,open_model_a,42,gemma
+aegis_governed_mesh_agent,1,36,stub_model,36,stub
+plain_mesh_agent,1,36,stub_model,36,stub
+prompt_policy_mesh_agent,1,36,stub_model,36,stub

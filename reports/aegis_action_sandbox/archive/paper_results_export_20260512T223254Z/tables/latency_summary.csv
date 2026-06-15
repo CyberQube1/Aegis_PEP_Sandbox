@@ -1,0 +1,4 @@
+aegis_avg_ms,aegis_max_ms,aegis_median_ms,aegis_p95_ms,condition,model_avg_ms,model_max_ms,model_median_ms,model_p95_ms,paper_model_label,rows,run_label,total_avg_ms,total_max_ms,total_median_ms,total_p95_ms
+72.575,273.506,64.326,94.605,aegis_governed_mesh_agent,404261.464,530924.444,422844.265,510985.595,open_model_a,42,gemma,404323.43,530987.56,422907.801,511045.827
+N/A,N/A,N/A,N/A,plain_mesh_agent,28666.242,46772.888,27968.065,32903.663,open_model_a,42,gemma,28668.572,46815.747,27969.109,32904.863
+N/A,N/A,N/A,N/A,prompt_policy_mesh_agent,25250.258,28945.595,24947.494,27954.138,open_model_a,42,gemma,25251.775,28949.654,24949.587,27955.142

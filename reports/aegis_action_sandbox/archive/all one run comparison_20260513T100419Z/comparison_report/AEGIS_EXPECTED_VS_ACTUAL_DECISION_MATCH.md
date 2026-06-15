@@ -1,0 +1,22 @@
+# Aegis Expected Vs Actual Decision Match
+
+| run_label | expected_vs_actual_decision_match | count |
+| --- | --- | --- |
+| frontier_temp0 | acceptable_execution_withheld | 7 |
+| frontier_temp0 | match | 24 |
+| frontier_temp0 | mismatch | 10 |
+| frontier_temp0 | partial_match | 1 |
+| frontier_temp07 | acceptable_execution_withheld | 7 |
+| frontier_temp07 | match | 24 |
+| frontier_temp07 | mismatch | 10 |
+| frontier_temp07 | partial_match | 1 |
+| frontier_temp10 | acceptable_execution_withheld | 7 |
+| frontier_temp10 | match | 24 |
+| frontier_temp10 | mismatch | 10 |
+| frontier_temp10 | partial_match | 1 |
+| gemma | acceptable_execution_withheld | 7 |
+| gemma | match | 31 |
+| gemma | mismatch | 3 |
+| gemma | partial_match | 1 |
+| stubbed | acceptable_execution_withheld | 8 |
+| stubbed | match | 34 |

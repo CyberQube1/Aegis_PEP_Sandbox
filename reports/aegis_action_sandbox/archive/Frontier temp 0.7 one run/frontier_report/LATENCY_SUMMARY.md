@@ -1,0 +1,7 @@
+# Latency Summary
+
+| run_label | paper_model_label | task_set_label | condition | rows | model_avg_ms | model_median_ms | model_p95_ms | model_max_ms | total_avg_ms | total_median_ms | total_p95_ms | total_max_ms | aegis_avg_ms | aegis_median_ms | Aegis p95 ms | aegis_max_ms |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| frontier_temp_0.7_one_run | frontier_model_a | 42-task full corpus | aegis_governed_mesh_agent | 42 | 2489.591 | 2341.673 | 3538.916 | 4786.581 | 2511.791 | 2366.091 | 3566.192 | 4809.628 | 26.056 | 24.555 | 30.873 | 60.846 |
+| frontier_temp_0.7_one_run | frontier_model_a | 42-task full corpus | plain_mesh_agent | 42 | 2568.308 | 2231.988 | 2758.12 | 10872.66 | 2568.755 | 2232.397 | 2758.652 | 10873.066 | N/A | N/A | N/A | N/A |
+| frontier_temp_0.7_one_run | frontier_model_a | 42-task full corpus | prompt_policy_mesh_agent | 42 | 2325.391 | 2195.512 | 3166.313 | 3723.454 | 2325.874 | 2195.999 | 3166.752 | 3723.873 | N/A | N/A | N/A | N/A |

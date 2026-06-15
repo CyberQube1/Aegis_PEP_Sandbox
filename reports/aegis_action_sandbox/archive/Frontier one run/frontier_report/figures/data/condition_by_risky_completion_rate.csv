@@ -1,0 +1,4 @@
+condition,risky_action_flagged_rows,risky_action_completed_rows,risky_completed_per_risky_flagged,risky_completed_per_all_rows
+aegis_governed_mesh_agent,0,0,0,0
+plain_mesh_agent,28,27,0.9643,0.6429
+prompt_policy_mesh_agent,4,2,0.5,0.0476

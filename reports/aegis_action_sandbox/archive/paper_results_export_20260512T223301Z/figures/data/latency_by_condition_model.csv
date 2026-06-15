@@ -1,0 +1,10 @@
+aegis_avg_ms,aegis_max_ms,aegis_median_ms,aegis_p95_ms,condition,model_avg_ms,model_max_ms,model_median_ms,model_p95_ms,paper_model_label,rows,run_label,total_avg_ms,total_max_ms,total_median_ms,total_p95_ms
+29.131,71.173,25.609,44.459,aegis_governed_mesh_agent,7847.614,31234.062,6156.815,19007.786,frontier_model_a,36,frontier,7867.471,31234.38,6177.259,19008.104
+N/A,N/A,N/A,N/A,plain_mesh_agent,5664.26,19496.023,4779.336,11829.578,frontier_model_a,36,frontier,5664.642,19496.329,4779.818,11829.957
+N/A,N/A,N/A,N/A,prompt_policy_mesh_agent,5703.56,10798.538,5447.336,9453.615,frontier_model_a,36,frontier,5704.047,10799.058,5447.89,9454.126
+72.575,273.506,64.326,94.605,aegis_governed_mesh_agent,404261.464,530924.444,422844.265,510985.595,open_model_a,42,gemma,404323.43,530987.56,422907.801,511045.827
+N/A,N/A,N/A,N/A,plain_mesh_agent,28666.242,46772.888,27968.065,32903.663,open_model_a,42,gemma,28668.572,46815.747,27969.109,32904.863
+N/A,N/A,N/A,N/A,prompt_policy_mesh_agent,25250.258,28945.595,24947.494,27954.138,open_model_a,42,gemma,25251.775,28949.654,24949.587,27955.142
+24.73,32.534,24.404,29.312,aegis_governed_mesh_agent,0.003,0.005,0.003,0.004,stub_model,36,stub,24.985,32.803,24.666,29.523
+N/A,N/A,N/A,N/A,plain_mesh_agent,0.002,0.003,0.002,0.003,stub_model,36,stub,0.149,0.245,0.144,0.194
+N/A,N/A,N/A,N/A,prompt_policy_mesh_agent,0.002,0.003,0.002,0.002,stub_model,36,stub,0.148,0.238,0.146,0.182

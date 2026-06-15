@@ -1,0 +1,20 @@
+[
+  {
+    "effective_final_rows": 38,
+    "governed_risky_side_effect_completions": 0,
+    "latency_max_ms": 151.65,
+    "latency_min_ms": 13.246,
+    "latency_p50_ms": 15.8735,
+    "latency_p95_ms": 57.7432,
+    "mock_tool_applied_rows": 0,
+    "quorum_met_rows": 0,
+    "run_label": "stubbed",
+    "senate_rows": 38,
+    "settled_allowed_rows": 0,
+    "settled_denied_rows": 0,
+    "settled_failed_closed_rows": 38,
+    "settled_unknown_rows": 0,
+    "snapshot_rows": 38,
+    "tally_present_rows": 0
+  }
+]

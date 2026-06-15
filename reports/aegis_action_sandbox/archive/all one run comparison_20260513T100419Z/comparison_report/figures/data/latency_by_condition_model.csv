@@ -1,0 +1,16 @@
+run_label,paper_model_label,task_set_label,condition,rows,model_avg_ms,model_median_ms,model_p95_ms,model_max_ms,total_avg_ms,total_median_ms,total_p95_ms,total_max_ms,aegis_avg_ms,aegis_median_ms,aegis_p95_ms,aegis_max_ms
+frontier_temp0,frontier_model_a,42-task full corpus,aegis_governed_mesh_agent,42,2015.755,1894.809,2504.776,4037.571,2037.543,1912.948,2526.281,4065.301,25.622,23.989,29.078,63.677
+frontier_temp0,frontier_model_a,42-task full corpus,plain_mesh_agent,42,2067.262,1970.789,2930.262,3104.503,2067.637,1971.216,2930.819,3104.834,N/A,N/A,N/A,N/A
+frontier_temp0,frontier_model_a,42-task full corpus,prompt_policy_mesh_agent,42,1961.267,1849.475,2347.219,4343.734,1961.741,1849.99,2347.719,4344.184,N/A,N/A,N/A,N/A
+frontier_temp07,frontier_model_a,42-task full corpus,aegis_governed_mesh_agent,42,1966.842,1969.312,2399.447,2619.789,1987.197,1987.267,2456.594,2641.461,24.596,21.924,38.455,62.518
+frontier_temp07,frontier_model_a,42-task full corpus,plain_mesh_agent,42,2277.33,2059.352,3680.139,4360.036,2277.705,2059.856,3680.493,4360.395,N/A,N/A,N/A,N/A
+frontier_temp07,frontier_model_a,42-task full corpus,prompt_policy_mesh_agent,42,2167.741,2069.545,2743.586,4431.201,2168.203,2069.988,2744.056,4431.637,N/A,N/A,N/A,N/A
+frontier_temp10,frontier_model_a,42-task full corpus,aegis_governed_mesh_agent,42,2093.48,2080.225,2587.263,2930.623,2114.653,2102.97,2609.531,2955.754,24.18,22.62,27.342,66.074
+frontier_temp10,frontier_model_a,42-task full corpus,plain_mesh_agent,42,2381.435,1992.698,3860.352,12610.115,2381.787,1993.066,3860.673,12610.463,N/A,N/A,N/A,N/A
+frontier_temp10,frontier_model_a,42-task full corpus,prompt_policy_mesh_agent,42,2041.431,1965.988,2622.786,4007.862,2041.927,1966.489,2623.259,4008.281,N/A,N/A,N/A,N/A
+gemma,open_model_a,42-task full corpus,aegis_governed_mesh_agent,42,404261.464,422844.265,510985.595,530924.444,404323.43,422907.801,511045.827,530987.56,72.575,64.326,94.605,273.506
+gemma,open_model_a,42-task full corpus,plain_mesh_agent,42,28666.242,27968.065,32903.663,46772.888,28668.572,27969.109,32904.863,46815.747,N/A,N/A,N/A,N/A
+gemma,open_model_a,42-task full corpus,prompt_policy_mesh_agent,42,25250.258,24947.494,27954.138,28945.595,25251.775,24949.587,27955.142,28949.654,N/A,N/A,N/A,N/A
+stubbed,stub_model,42-task full corpus,aegis_governed_mesh_agent,42,0.003,0.003,0.004,0.004,24.473,22.777,27.549,80.36,24.236,22.55,27.28,80.162
+stubbed,stub_model,42-task full corpus,plain_mesh_agent,42,0.002,0.002,0.002,0.003,0.106,0.102,0.129,0.207,N/A,N/A,N/A,N/A
+stubbed,stub_model,42-task full corpus,prompt_policy_mesh_agent,42,0.002,0.002,0.002,0.002,0.129,0.128,0.147,0.164,N/A,N/A,N/A,N/A

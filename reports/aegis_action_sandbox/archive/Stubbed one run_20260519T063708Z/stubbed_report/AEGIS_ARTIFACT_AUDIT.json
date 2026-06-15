@@ -1,0 +1,128 @@
+{
+  "rerun_decision": {
+    "rerun_needed_for_full_paper_claims": true,
+    "rerun_needed_for_provenance_claims": true,
+    "rerun_needed_for_risk_outcome_claims": false,
+    "rerun_reason_detail": "Trusted Aegis-resolved citation origin is not proven in existing artifacts.",
+    "rerun_reason_short": "Existing artifacts support decision/risk reporting, but trusted Aegis-resolved provenance is not proven.",
+    "rerun_recommendation": "rerun_all_runs"
+  },
+  "runs": [
+    {
+      "aegis_attempted_rows": 42,
+      "directory_exists": true,
+      "fields_available_for_local_fail_closed_rows": [
+        "aegis_decision",
+        "aegis_reason",
+        "mock_tool_applied",
+        "evidence_complete"
+      ],
+      "fields_available_only_for_aegis_attempted_rows": [
+        "manifest_reference",
+        "decision_id",
+        "trace_id"
+      ],
+      "fields_missing": [],
+      "full_paper_claims_supported": false,
+      "governed_row_count": 42,
+      "input_run_directory": "outputs_island/stubbed_one_run_20260519T055858Z",
+      "matrix_records_jsonl_present": true,
+      "provenance_rerun_reason": "Trusted Aegis-resolved citation origin is not proven in existing artifacts.",
+      "provenance_source_mapping_claims_supported": false,
+      "report_regeneration_possible_without_rerunning_inference": true,
+      "required_field_availability": {
+        "aegis_decision": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "aegis_decision_attempted": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "aegis_reason": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "aegis_reason_codes": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "condition": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "evidence_complete": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "expected_outcome": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "failure_category": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "governed_risky_side_effect_completed": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "mock_tool_applied": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "paper_model_label": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "parser_status": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "proposed_mock_tool": {
+          "available_rows": 40,
+          "governed_rows": 42
+        },
+        "provenance_boundary_valid": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "provenance_resolution_source": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "provenance_status": {
+          "available_rows": 18,
+          "governed_rows": 42
+        },
+        "required_controls": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "run_label": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "source_refs": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "task_id": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "task_title": {
+          "available_rows": 42,
+          "governed_rows": 42
+        },
+        "workflow_family": {
+          "available_rows": 42,
+          "governed_rows": 42
+        }
+      },
+      "risky_side_effect_outcome_claims_supported": true,
+      "row_count": 126,
+      "run_label": "stubbed"
+    }
+  ]
+}

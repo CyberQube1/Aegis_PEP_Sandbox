@@ -1,0 +1,156 @@
+{
+  "by_loop_counts": [
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_1",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_1",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_10",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_10",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_2",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_2",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_3",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_3",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_4",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_4",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_5",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_5",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_6",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_6",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_7",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_7",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_8",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_8",
+      "status": "denied"
+    },
+    {
+      "count": 1,
+      "decision": "allow",
+      "loop": "loop_9",
+      "status": "allowed"
+    },
+    {
+      "count": 29,
+      "decision": "deny",
+      "loop": "loop_9",
+      "status": "denied"
+    }
+  ],
+  "errors": [],
+  "escalation_rows_found": 300,
+  "latency_ms": {
+    "max": 122.46300000000001,
+    "mean": 29.545533333333335,
+    "min": 13.113,
+    "p50": 23.759999999999998,
+    "p90": 57.250699999999995,
+    "p95": 61.7323,
+    "p99": 66.80966
+  },
+  "output_root": "/home/spqr-admin/aegis-kernel/paper_eval/aegis_action_sandbox/outputs_island/paper_matrix_gemma_local_10x_20260513T111911Z",
+  "snapshot_utc": "2026-05-14T01:05:18Z",
+  "status_counts": [
+    {
+      "count": 10,
+      "decision": "allow",
+      "effective_finality_status": "final",
+      "quorum_met": true,
+      "status": "allowed",
+      "tally_present": true
+    },
+    {
+      "count": 290,
+      "decision": "deny",
+      "effective_finality_status": "final",
+      "quorum_met": true,
+      "status": "denied",
+      "tally_present": true
+    }
+  ],
+  "statuses_snapshotted": 300
+}

@@ -1,0 +1,28 @@
+{
+  "decision_counts": {
+    "allow": 2,
+    "deny": 38
+  },
+  "effective_finality_counts": {
+    "final": 40
+  },
+  "incomplete_escalation_ids": [],
+  "incomplete_rows": 0,
+  "quorum_met_rows": 40,
+  "settlement_latency": {
+    "max_ms": 52.362,
+    "mean_ms": 21.576249999999998,
+    "min_ms": 14.224,
+    "p50_ms": 16.322499999999998,
+    "p95_ms": 51.33
+  },
+  "snapshot_rows": 40,
+  "source_citation_rows": 40,
+  "status_counts": {
+    "allowed": 2,
+    "denied": 38
+  },
+  "tally_present_rows": 40,
+  "terminal_rows": 40,
+  "total_escalation_ids": 40
+}

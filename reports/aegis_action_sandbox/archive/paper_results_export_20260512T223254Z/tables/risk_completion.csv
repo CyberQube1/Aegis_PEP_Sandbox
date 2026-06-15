@@ -1,0 +1,4 @@
+blocked_or_review_rows,condition,governed_risky_side_effects_completed,no_tool_fail_closed_rows,paper_model_label,risky_action_completed_rate,risky_action_completed_rows,risky_action_flagged_rows,rows,run_label
+42,aegis_governed_mesh_agent,0,7,open_model_a,0,0,7,42,gemma
+17,plain_mesh_agent,0,7,open_model_a,0.7308,19,26,42,gemma
+37,prompt_policy_mesh_agent,0,9,open_model_a,0,0,6,42,gemma

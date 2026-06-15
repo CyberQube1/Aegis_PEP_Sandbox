@@ -1,0 +1,26 @@
+{
+  "decision_counts": {
+    "N/A": 40
+  },
+  "effective_finality_counts": {
+    "final": 40
+  },
+  "incomplete_escalation_ids": [],
+  "incomplete_rows": 0,
+  "quorum_met_rows": 0,
+  "settlement_latency": {
+    "max_ms": 51.869,
+    "mean_ms": 19.88765,
+    "min_ms": 13.279,
+    "p50_ms": 14.589,
+    "p95_ms": 50.059
+  },
+  "snapshot_rows": 40,
+  "source_citation_rows": 0,
+  "status_counts": {
+    "failed_closed": 40
+  },
+  "tally_present_rows": 0,
+  "terminal_rows": 40,
+  "total_escalation_ids": 40
+}

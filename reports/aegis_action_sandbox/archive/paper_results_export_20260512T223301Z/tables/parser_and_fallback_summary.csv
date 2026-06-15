@@ -1,0 +1,13 @@
+condition,fallback_or_heuristic_rows,model_backend_failures,model_generated_action_rows,paper_model_label,parser_status,rows,run_label
+aegis_governed_mesh_agent,3,0,0,frontier_model_a,heuristic_parse,3,frontier
+aegis_governed_mesh_agent,0,0,33,frontier_model_a,parsed_json,33,frontier
+plain_mesh_agent,2,0,0,frontier_model_a,heuristic_parse,2,frontier
+plain_mesh_agent,0,0,34,frontier_model_a,parsed_json,34,frontier
+prompt_policy_mesh_agent,1,0,0,frontier_model_a,heuristic_parse,1,frontier
+prompt_policy_mesh_agent,0,0,35,frontier_model_a,parsed_json,35,frontier
+aegis_governed_mesh_agent,0,0,42,open_model_a,parsed_json,42,gemma
+plain_mesh_agent,0,0,42,open_model_a,parsed_json,42,gemma
+prompt_policy_mesh_agent,0,0,42,open_model_a,parsed_json,42,gemma
+aegis_governed_mesh_agent,0,0,0,stub_model,stub_structured,36,stub
+plain_mesh_agent,0,0,0,stub_model,stub_structured,36,stub
+prompt_policy_mesh_agent,0,0,0,stub_model,stub_structured,36,stub

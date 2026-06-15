@@ -1,0 +1,20 @@
+{
+  "decision_counts": {},
+  "effective_finality_counts": {},
+  "incomplete_escalation_ids": [],
+  "incomplete_rows": 0,
+  "quorum_met_rows": 0,
+  "settlement_latency": {
+    "max_ms": "N/A",
+    "mean_ms": "N/A",
+    "min_ms": "N/A",
+    "p50_ms": "N/A",
+    "p95_ms": "N/A"
+  },
+  "snapshot_rows": 0,
+  "source_citation_rows": 0,
+  "status_counts": {},
+  "tally_present_rows": 0,
+  "terminal_rows": 0,
+  "total_escalation_ids": 0
+}

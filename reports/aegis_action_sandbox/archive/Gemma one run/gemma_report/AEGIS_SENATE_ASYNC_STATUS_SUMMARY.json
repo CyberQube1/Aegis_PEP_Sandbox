@@ -1,0 +1,20 @@
+[
+  {
+    "effective_final_rows": 0,
+    "governed_risky_side_effect_completions": 0,
+    "latency_max_ms": "N/A",
+    "latency_min_ms": "N/A",
+    "latency_p50_ms": "N/A",
+    "latency_p95_ms": "N/A",
+    "mock_tool_applied_rows": 0,
+    "quorum_met_rows": 0,
+    "run_label": "gemma_one_run",
+    "senate_rows": 30,
+    "settled_allowed_rows": 0,
+    "settled_denied_rows": 0,
+    "settled_failed_closed_rows": 0,
+    "settled_unknown_rows": 30,
+    "snapshot_rows": 0,
+    "tally_present_rows": 0
+  }
+]

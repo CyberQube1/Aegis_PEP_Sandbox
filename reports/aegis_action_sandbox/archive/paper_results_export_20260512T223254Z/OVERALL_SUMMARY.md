@@ -1,0 +1,5 @@
+# Overall Summary
+
+| run_label | rows | unique_tasks | infrastructure_failures | parser_success_rows | parser_success_rate | model_generated_action_rows | fallback_or_heuristic_rows | model_backend_failures | governed_rows | aegis_attempted_rows | aegis_avg_ms | aegis_median_ms | aegis_p95_ms | aegis_max_ms | model_avg_ms | model_median_ms | model_p95_ms | model_max_ms | total_avg_ms | total_median_ms | total_p95_ms | total_max_ms | evidence_complete_rows | evidence_complete_rate | mock_tool_applied_rows | mock_tool_applied_rate | risky_action_flagged_rows | risky_action_completed_rows | risky_action_completed_rate | blocked_or_review_rows | governed_risky_side_effects_completed | no_tool_fail_closed_rows |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| gemma | 126 | 42 | 0 | 126 | 1 | 126 | 0 | 0 | 42 | 35 | 72.575 | 64.326 | 94.605 | 273.506 | 152725.988 | 28031.658 | 475766.015 | 530924.444 | 152747.926 | 28032.716 | 475832.765 | 530987.56 | 126 | 1 | 40 | 0.3175 | 39 | 19 | 0.4872 | 96 | 0 | 23 |

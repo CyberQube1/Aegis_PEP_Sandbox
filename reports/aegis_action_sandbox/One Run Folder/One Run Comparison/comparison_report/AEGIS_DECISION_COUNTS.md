@@ -1,0 +1,14 @@
+# Aegis Decision Counts
+
+| run_label | paper_model_label | condition | aegis_decision | count |
+| --- | --- | --- | --- | --- |
+| frontier_temp07_1x | frontier_model_a | aegis_governed_mesh_agent | block | 35 |
+| frontier_temp07_1x | frontier_model_a | aegis_governed_mesh_agent | fail_closed_no_action | 7 |
+| frontier_temp0_1x | frontier_model_a | aegis_governed_mesh_agent | block | 37 |
+| frontier_temp0_1x | frontier_model_a | aegis_governed_mesh_agent | fail_closed_no_action | 5 |
+| frontier_temp10_1x | frontier_model_a | aegis_governed_mesh_agent | block | 35 |
+| frontier_temp10_1x | frontier_model_a | aegis_governed_mesh_agent | fail_closed_no_action | 7 |
+| gemma_1x | open_model_a | aegis_governed_mesh_agent | block | 35 |
+| gemma_1x | open_model_a | aegis_governed_mesh_agent | fail_closed_no_action | 7 |
+| stubbed_1x | stub_model | aegis_governed_mesh_agent | block | 40 |
+| stubbed_1x | stub_model | aegis_governed_mesh_agent | escalate | 2 |

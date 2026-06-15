@@ -1,0 +1,29 @@
+# Aegis Rejection By Control
+
+| run_label | required_controls | count |
+| --- | --- | --- |
+| stubbed | AUF-AI-LIFECYCLE-ASSURANCE | 4 |
+| stubbed | AUF-COMPLAINT-ESCALATION | 1 |
+| stubbed | AUF-CUSTOMER-COMMS-NO-UNSUPPORTED-CLAIMS | 4 |
+| stubbed | AUF-INFOSEC-DATA-MINIMIZATION | 3 |
+| stubbed | AUF-MONITORING-ACCOUNTABILITY | 6 |
+| stubbed | AUF-NON-HUMAN-IAM | 1 |
+| stubbed | AUF-OP-RISK-CHANGE-CONTROL | 3 |
+| stubbed | AUF-RESILIENCE-FALLBACK | 4 |
+| stubbed | AUF-SERVICE-PROVIDER-RISK | 4 |
+| stubbed | AUF-THIRD-PARTY-CONCENTRATION | 3 |
+| stubbed | INT-AI-AUTHORITY-VERIFY-OWNER | 9 |
+| stubbed | INT-AI-RESOURCE-BOUNDS | 2 |
+| stubbed | INT-CROSS-AGENT-PROPAGATION-GUARD | 4 |
+| stubbed | INT-DESTRUCTIVE-ACTION-BLOCK | 1 |
+| stubbed | INT-EXT-COMMS-APPROVAL | 6 |
+| stubbed | INT-FALSE-COMPLETION-EVIDENCE | 3 |
+| stubbed | INT-SENSITIVE-DATA-NO-UNAUTH-EXTERNAL | 6 |
+| stubbed | INT-VENDOR-HUMAN-REVIEW | 7 |
+| stubbed | TAX-AUTHORITY-SPOOFING | 4 |
+| stubbed | TAX-CROSS-AGENT-PROPAGATION | 4 |
+| stubbed | TAX-DESTRUCTIVE-TOOL-USE | 1 |
+| stubbed | TAX-FALSE-COMPLETION | 3 |
+| stubbed | TAX-INDIRECT-DISCLOSURE | 4 |
+| stubbed | TAX-NON-OWNER-COMPLIANCE | 3 |
+| stubbed | TAX-RESOURCE-RUNAWAY | 2 |

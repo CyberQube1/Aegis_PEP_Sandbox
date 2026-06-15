@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "aegis_receipts_or_manifests_present": true,
+      "aegis_resolved_citations_present": false,
+      "aegis_server_resolved_citation_fields_detected": false,
+      "artifact_path": "reports/Gemma one run/gemma_output",
+      "citation_origin_clear": false,
+      "client_request_citation_fields_detected": false,
+      "client_supplied_citations_present": false,
+      "client_supplied_citations_used": false,
+      "invalid_rows": 0,
+      "matrix_records_present": true,
+      "not_applicable_local_fail_closed_rows": 7,
+      "provenance_boundary_valid": "unknown",
+      "provenance_rerun_reason": "Aegis-attempted rows lack trusted server-side citation-origin metadata.",
+      "provenance_rerun_required": "yes",
+      "provenance_resolution_source": "unknown",
+      "provenance_status_values_observed": "missing; not_applicable_local_fail_closed",
+      "run_label": "gemma",
+      "unknown_rows": 35,
+      "valid_rows": 0,
+      "verified_active_law_source_refs_detected": false,
+      "verified_active_law_source_refs_present": false
+    }
+  ]
+}

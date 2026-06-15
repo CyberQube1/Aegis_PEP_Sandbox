@@ -1,0 +1,2 @@
+run_label,senate_rows,snapshot_rows,settled_allowed_rows,settled_denied_rows,settled_failed_closed_rows,settled_unknown_rows,tally_present_rows,quorum_met_rows,effective_final_rows,mock_tool_applied_rows,governed_risky_side_effect_completions,latency_min_ms,latency_p50_ms,latency_p95_ms,latency_max_ms
+stubbed,18,18,0,0,18,0,0,0,18,0,0,13.51,15.8375,69.2491,138.332
