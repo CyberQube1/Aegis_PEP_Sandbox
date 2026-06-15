@@ -1,4 +1,0 @@
-aegis_attempted_rows,aegis_avg_ms,aegis_max_ms,aegis_median_ms,aegis_p95_ms,condition,mock_tool_applied_rows,no_tool_fail_closed_rows,paper_model_label,rows,run_label
-35,72.575,273.506,64.326,94.605,aegis_governed_mesh_agent,0,7,open_model_a,42,gemma
-,,,,,aegis_governed_mesh_agent,,decision=block,open_model_a,35,gemma
-,,,,,aegis_governed_mesh_agent,,decision=fail_closed_no_action,open_model_a,7,gemma

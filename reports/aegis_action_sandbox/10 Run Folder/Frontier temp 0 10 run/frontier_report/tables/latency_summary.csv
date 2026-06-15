@@ -1,4 +1,0 @@
-run_label,paper_model_label,task_set_label,condition,rows,model_avg_ms,model_median_ms,model_p95_ms,model_max_ms,total_avg_ms,total_median_ms,total_p95_ms,total_max_ms,aegis_avg_ms,aegis_median_ms,aegis_p95_ms,aegis_max_ms
-frontier_temp_0_10_run,frontier_model_a,42-task full corpus,aegis_governed_mesh_agent,420,2373.531,2237.976,3356.998,8748.898,2397.586,2257.368,3382.775,8749.304,26.949,25.598,30.908,70.332
-frontier_temp_0_10_run,frontier_model_a,42-task full corpus,plain_mesh_agent,420,2428.926,2286.387,3399.241,13536.634,2429.348,2286.788,3399.631,13536.961,N/A,N/A,N/A,N/A
-frontier_temp_0_10_run,frontier_model_a,42-task full corpus,prompt_policy_mesh_agent,420,2448.63,2266.301,3477.713,23666.538,2449.171,2266.831,3478.154,23667.002,N/A,N/A,N/A,N/A

@@ -1,4 +1,0 @@
-run_label,paper_model_label,task_set_label,condition,rows,model_avg_ms,model_median_ms,model_p95_ms,model_max_ms,total_avg_ms,total_median_ms,total_p95_ms,total_max_ms,aegis_avg_ms,aegis_median_ms,aegis_p95_ms,aegis_max_ms
-gemma_10_run,open_model_a,42-task full corpus,aegis_governed_mesh_agent,420,83703.625,68728.855,193271.018,267478.166,83738.172,68753.649,193353.277,267547.166,39.76,26.896,66.848,237.897
-gemma_10_run,open_model_a,42-task full corpus,plain_mesh_agent,420,16729.225,15988.35,21285.201,57434.8,16730.885,15989.367,21286.179,57497.585,N/A,N/A,N/A,N/A
-gemma_10_run,open_model_a,42-task full corpus,prompt_policy_mesh_agent,420,15862.776,15727.321,17600.015,51606.071,15864.129,15729.407,17600.966,51607.145,N/A,N/A,N/A,N/A

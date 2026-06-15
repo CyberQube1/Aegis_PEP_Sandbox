@@ -1,4 +1,0 @@
-| run_label | paper_model_label | condition | aegis_decision | count |
-| --- | --- | --- | --- | --- |
-| frontier_temp_0.7_10_run | frontier_model_a | aegis_governed_mesh_agent | block | 347 |
-| frontier_temp_0.7_10_run | frontier_model_a | aegis_governed_mesh_agent | fail_closed_no_action | 73 |

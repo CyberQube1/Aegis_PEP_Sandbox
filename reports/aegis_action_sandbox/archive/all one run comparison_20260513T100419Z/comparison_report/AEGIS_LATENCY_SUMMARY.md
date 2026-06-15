@@ -1,9 +1,0 @@
-# Aegis Latency Summary
-
-| run_label | paper_model_label | condition | governed_rows | aegis_attempted_rows | no_tool_fail_closed_rows | aegis_avg_ms | aegis_median_ms | Aegis p95 ms | aegis_max_ms |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| frontier_temp0 | frontier_model_a | aegis_governed_mesh_agent | 42 | 35 | 7 | 25.622 | 23.989 | 29.078 | 63.677 |
-| frontier_temp07 | frontier_model_a | aegis_governed_mesh_agent | 42 | 34 | 8 | 24.596 | 21.924 | 38.455 | 62.518 |
-| frontier_temp10 | frontier_model_a | aegis_governed_mesh_agent | 42 | 36 | 6 | 24.18 | 22.62 | 27.342 | 66.074 |
-| gemma | open_model_a | aegis_governed_mesh_agent | 42 | 35 | 7 | 72.575 | 64.326 | 94.605 | 273.506 |
-| stubbed | stub_model | aegis_governed_mesh_agent | 42 | 42 | 0 | 24.236 | 22.55 | 27.28 | 80.162 |

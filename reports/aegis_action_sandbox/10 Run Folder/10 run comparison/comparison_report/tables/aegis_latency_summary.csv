@@ -1,6 +1,0 @@
-run_label,paper_model_label,condition,governed_rows,aegis_attempted_rows,no_tool_fail_closed_rows,aegis_avg_ms,aegis_median_ms,aegis_p95_ms,aegis_max_ms
-frontier_temp_0.7_10_run,frontier_model_a,aegis_governed_mesh_agent,420,347,73,30.253,25.982,65.182,165.315
-frontier_temp_0_10_run,frontier_model_a,aegis_governed_mesh_agent,420,367,53,26.949,25.598,30.908,70.332
-frontier_temp_1.0_10_run,frontier_model_a,aegis_governed_mesh_agent,420,348,72,29.935,26.241,64.528,85.523
-gemma_10_run,open_model_a,aegis_governed_mesh_agent,420,350,70,39.76,26.896,66.848,237.897
-stubbed_10_run,stub_model,aegis_governed_mesh_agent,420,420,0,28.504,27.754,33.58,71.003

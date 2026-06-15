@@ -1,6 +1,0 @@
-# Aegis Decision Counts
-
-| run_label | paper_model_label | condition | aegis_decision | count |
-| --- | --- | --- | --- | --- |
-| stubbed_10_run | stub_model | aegis_governed_mesh_agent | block | 400 |
-| stubbed_10_run | stub_model | aegis_governed_mesh_agent | escalate | 20 |

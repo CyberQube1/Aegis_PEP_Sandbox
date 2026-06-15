@@ -1,2 +1,0 @@
-run_label,paper_model_label,condition,governed_rows,aegis_attempted_rows,no_tool_fail_closed_rows,aegis_avg_ms,aegis_median_ms,aegis_p95_ms,aegis_max_ms
-gemma_10_run,open_model_a,aegis_governed_mesh_agent,420,350,70,39.76,26.896,66.848,237.897

@@ -1,7 +1,0 @@
-# Latency Summary
-
-| run_label | paper_model_label | task_set_label | condition | rows | model_avg_ms | model_median_ms | model_p95_ms | model_max_ms | total_avg_ms | total_median_ms | total_p95_ms | total_max_ms | aegis_avg_ms | aegis_median_ms | Aegis p95 ms | aegis_max_ms |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| stubbed | stub_model | 42-task full corpus | aegis_governed_mesh_agent | 42 | 0.005 | 0.004 | 0.006 | 0.018 | 32.903 | 27.688 | 32.738 | 229.494 | 32.594 | 27.354 | 32.389 | 229.211 |
-| stubbed | stub_model | 42-task full corpus | plain_mesh_agent | 42 | 0.003 | 0.003 | 0.004 | 0.006 | 0.149 | 0.15 | 0.191 | 0.322 | N/A | N/A | N/A | N/A |
-| stubbed | stub_model | 42-task full corpus | prompt_policy_mesh_agent | 42 | 0.002 | 0.002 | 0.003 | 0.004 | 0.132 | 0.133 | 0.153 | 0.167 | N/A | N/A | N/A | N/A |

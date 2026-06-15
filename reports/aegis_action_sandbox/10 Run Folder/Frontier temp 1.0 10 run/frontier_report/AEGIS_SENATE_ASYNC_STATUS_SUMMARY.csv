@@ -1,2 +1,0 @@
-run_label,senate_rows,snapshot_rows,settled_allowed_rows,settled_denied_rows,settled_failed_closed_rows,settled_unknown_rows,tally_present_rows,quorum_met_rows,effective_final_rows,mock_tool_applied_rows,governed_risky_side_effect_completions,latency_min_ms,latency_p50_ms,latency_p95_ms,latency_max_ms
-frontier_temp_1.0_10_run,97,97,0,97,0,0,97,97,97,0,0,15.457,24.97,62.0758,63.863

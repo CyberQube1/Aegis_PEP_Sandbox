@@ -1,5 +1,0 @@
-# Aegis Senate By Settled Decision
-
-| run_label | senate_settled_status | senate_settled_decision | senate_effective_finality_status | count |
-| --- | --- | --- | --- | --- |
-| stubbed | failed_closed | N/A | final | 38 |
