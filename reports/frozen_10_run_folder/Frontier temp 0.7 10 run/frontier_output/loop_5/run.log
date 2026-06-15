@@ -1,0 +1,12 @@
+ Container aegis_action_sandbox-aegis-paper-sandbox-pep-run-b080c61d79d3 Creating 
+ Container aegis_action_sandbox-aegis-paper-sandbox-pep-run-b080c61d79d3 Created 
+{
+  "manifest_path": "outputs_island/paper_matrix_frontier_temp_0.7_10x_20260514T033039Z/loop_5/run_manifest.json",
+  "normalized_csv": "outputs_island/paper_matrix_frontier_temp_0.7_10x_20260514T033039Z/loop_5/matrix_records.csv",
+  "output_dir": "outputs_island/paper_matrix_frontier_temp_0.7_10x_20260514T033039Z/loop_5",
+  "raw_jsonl": "outputs_island/paper_matrix_frontier_temp_0.7_10x_20260514T033039Z/loop_5/matrix_records.jsonl",
+  "row_count": 126,
+  "run_errors": [],
+  "summary_md": "outputs_island/paper_matrix_frontier_temp_0.7_10x_20260514T033039Z/loop_5/SUMMARY.md",
+  "timing_csv": "outputs_island/paper_matrix_frontier_temp_0.7_10x_20260514T033039Z/loop_5/timing_records.csv"
+}
